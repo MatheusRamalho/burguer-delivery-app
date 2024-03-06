@@ -7,10 +7,11 @@ import { Header } from '@/components/Header'
 import { Product } from '@/components/Product'
 import { CATEGORIES, MENU } from '@/data/products'
 import { useCartStore } from '@/stores/cart-store'
+import { ProductType } from '@/types/Product'
 
 export default function Home() {
     const [category, setCategory] = useState(CATEGORIES[0])
-    const sectionListRef = useRef<SectionList>(null)
+    const sectionListRef = useRef<SectionList<ProductType>>(null)
     const { products } = useCartStore()
 
     const cartQuantityItems = products.reduce(

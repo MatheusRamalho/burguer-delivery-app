@@ -11,13 +11,15 @@ import { formatCurrency } from '@/utils/format-currency'
 export default function Product() {
     const { id } = useLocalSearchParams()
     const navigation = useNavigation()
-    const { add: cartStoreAdd } = useCartStore()
+    const { add } = useCartStore()
 
-    const product = PRODUCTS.filter((item) => item.id === id)[0]
+    const product = PRODUCTS.find((item) => item.id === id)
 
     function handleAddToCart() {
-        cartStoreAdd(product)
-        navigation.goBack()
+        if (product) {
+            add(product)
+            navigation.goBack()
+        }
     }
 
     if (!product) {
