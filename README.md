@@ -33,6 +33,8 @@ Aplicativo para lhe ajudar com as vendas da sua lanchonete. Faça o pedido do co
 - Typescript
 - Expo
 - Nativewind
+- Git
+- Github
 
 <br />
 
