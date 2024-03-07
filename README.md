@@ -56,12 +56,6 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 <br />
 
-## 🚀 Deploy
-
-Você pode visualizar o deploy do projeto na vercel através [desse link](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83).
-
-<br />
-
 ## 🛟 Pré-requisitos
 
 Antes de começar, verifique se atendeu aos seguintes requisitos:
@@ -69,6 +63,7 @@ Antes de começar, verifique se atendeu aos seguintes requisitos:
 - [Node](https://nodejs.org)
 - [Npm](https://www.npmjs.com/)
 - [VsCode](https://code.visualstudio.com/)
+- [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&pcampaignid=web_share)
 
 <br />
 
@@ -77,7 +72,7 @@ Antes de começar, verifique se atendeu aos seguintes requisitos:
 Clone o repositório
 
 ```bash
-git clone https://github.com/MatheusRamalho/ignite-feed.git
+git clone https://github.com/MatheusRamalho/burguer-delivery-app.git
 ```
 
 Utilize o **npm** para instalar as dependências do projeto.
