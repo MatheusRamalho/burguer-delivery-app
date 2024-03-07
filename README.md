@@ -9,15 +9,15 @@
 
 ## 📌 Tópicos
 
-- [Descrição do projeto](#projeto)
-- [Funcionalidades](#stack)
-- [Funcionalidades](#funcionalidades)
-- [Layout da Aplicação](#layout)
-- [Deploy da Aplicação](#deploy)
-- [Pré-requisitos](#pré-requisitos)
-- [Como rodar a aplicação](#rodando-a-aplicação)
-- [Licença](#licença)
-- [Desenvolvedores e contribuintes](#Desenvolvedores)
+- [Descrição do projeto](#-projeto)
+- [Funcionalidades](#-stack)
+- [Funcionalidades](#-funcionalidades)
+- [Layout da Aplicação](#-layout)
+- [Deploy da Aplicação](#-deploy)
+- [Pré-requisitos](#-pré-requisitos)
+- [Como rodar a aplicação](#-rodando-a-aplicação)
+- [Licença](#-licença)
+- [Desenvolvedores e contribuintes](#-Desenvolvedores)
 
 <br />
 
