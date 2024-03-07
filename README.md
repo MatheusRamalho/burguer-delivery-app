@@ -1,4 +1,4 @@
-<h1> Nome do Projeto </h1>
+# Burguer Delivery
 
 <br />
 
@@ -9,17 +9,21 @@
 
 ## 📌 Tópicos
 
-- [Descrição do projeto](#descrição-do-projeto)
+- [Descrição do projeto](#projeto)
+- [Funcionalidades](#stack)
 - [Funcionalidades](#funcionalidades)
-- [Deploy da Aplicação](#deploy-da-aplicação-dash)
+- [Layout da Aplicação](#layout)
+- [Deploy da Aplicação](#deploy)
 - [Pré-requisitos](#pré-requisitos)
-- [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+- [Como rodar a aplicação](#rodando-a-aplicação)
+- [Licença](#licença)
+- [Desenvolvedores e contribuintes](#Desenvolvedores)
 
 <br />
 
 ## 💡 Projeto
 
-Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jogar com os amigos. Crie grupos para jogar seus games favoritos com seus amigos com esse App que possui autenticação com Discord.
+Aplicativo para lhe ajudar com as vendas da sua lanchonete. Faça o pedido do conforto da sua casa, com apenas alguns clique na tela do celular, faça seu pedido de um delicioso hambúrguer e poucos minutos está recebendo em sua residnência.
 
 <br />
 
@@ -32,17 +36,23 @@ Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jog
 
 <br />
 
-## 🧰 Features
+## 🧰 Funcionalidades
 
-- Autenticação Social OAuth2 com servidor do Discord.
-- Obtém perfil do usuário cadastro no Discord (username e avatar);
-- Lista os servidores do Discord que o usuário faz parte;
+- Listagem de categoria de produtos
+- Listagem de produtos
+- Detalhes dos produtos
+- Adicionar um ou mais produtos ao carrinho
+- Remover produtos do carrinho
+- Carrinho de compras
+- Calculo do valor do pedido automática
+- Adicionar endereço de entrega do pedido
+- Enviar pedido por api do whatsApp
 
 <br />
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/po5Xz6LVbBtGFo6lMA2oJO/NLW-expert-%E2%80%A2-Orders-(Community)?type=design&node-id=2%3A287&mode=design&t=ynTcyHmSIkfvqmhA-1). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
 
 <br />
 
@@ -52,7 +62,7 @@ Você pode visualizar o deploy do projeto na vercel através [desse link](https:
 
 <br />
 
-## 🛟 Prerequisites
+## 🛟 Pré-requisitos
 
 Antes de começar, verifique se atendeu aos seguintes requisitos:
 
@@ -62,24 +72,24 @@ Antes de começar, verifique se atendeu aos seguintes requisitos:
 
 <br />
 
-## 🎯 Running
+## 🎯 Rodando a aplicação
 
 Clone o repositório
 
 ```bash
-    git clone https://github.com/MatheusRamalho/ignite-feed.git
+git clone https://github.com/MatheusRamalho/ignite-feed.git
 ```
 
 Utilize o **npm** para instalar as dependências do projeto.
 
 ```bash
-    npm install
+npm install
 ```
 
 Em seguida, inicie o projeto.
 
 ```bash
-    npx expo start
+npx expo start
 ```
 
 <br />
@@ -90,6 +100,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 <br />
 
-## 🧠 Developers
+## 🧠 Desenvolvedores
 
 [<img src="https://avatars.githubusercontent.com/u/15633283?v=4" width=80> <br><sub>Matheus Ramalho</sub>](https://github.com/MatheusRamalho)
