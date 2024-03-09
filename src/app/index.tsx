@@ -54,7 +54,7 @@ export default function Home() {
                 )}
                 horizontal
                 showsHorizontalScrollIndicator={false}
-                className="max-w-10 mt-5"
+                className="max-h-10 mt-5"
                 contentContainerStyle={{ gap: 12, paddingHorizontal: 20 }}
             />
 

@@ -9,6 +9,8 @@ import {
 import { Slot } from 'expo-router'
 import { SafeAreaView } from 'react-native'
 
+import '@/styles/global.css'
+
 import { Loading } from '@/components/Loading'
 
 export default function Layout() {
@@ -24,7 +26,7 @@ export default function Layout() {
     }
 
     return (
-        <SafeAreaView className="flex-1 bg-slate-900">
+        <SafeAreaView className="flex-1 bg-slate-900 pt-10">
             <Slot />
         </SafeAreaView>
     )
