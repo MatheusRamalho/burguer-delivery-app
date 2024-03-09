@@ -26,9 +26,7 @@ export function remove(products: ProductCart[], productRemoveId: string) {
             : product,
     )
 
-    const productsWithQuantityGreaterThanZero = updateProducts.filter(
-        (product) => product.quantity > 0,
-    )
+    const productsWithQuantityGreaterThanZero = updateProducts.filter((product) => product.quantity > 0)
 
     return productsWithQuantityGreaterThanZero
 }

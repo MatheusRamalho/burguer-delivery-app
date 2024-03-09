@@ -6,8 +6,7 @@ const MENU = [
                 id: '1',
                 title: 'X-React',
                 price: 24.9,
-                description:
-                    'Um hamburger tão bonito que me deu fome enquanto eu fazia esse layout para o projeto...',
+                description: 'Um hamburger tão bonito que me deu fome enquanto eu fazia esse layout para o projeto...',
                 cover: require('../assets/products/cover/1.png'),
                 thumbnail: require('../assets/products/thumbnail/1.png'),
                 ingredients: [
@@ -92,22 +91,16 @@ const MENU = [
                 id: '5',
                 title: 'Sorvete com Brownie',
                 price: 18.9,
-                description:
-                    'Uma sobremesa deliciosa para saborear. Escolha o sorvete e a calda que desejar...',
+                description: 'Uma sobremesa deliciosa para saborear. Escolha o sorvete e a calda que desejar...',
                 cover: require('../assets/products/cover/5.png'),
                 thumbnail: require('../assets/products/thumbnail/5.png'),
-                ingredients: [
-                    '1x Brownie;',
-                    '1x Bola de sorvete a sua escolha',
-                    'Escolha sua calda;',
-                ],
+                ingredients: ['1x Brownie;', '1x Bola de sorvete a sua escolha', 'Escolha sua calda;'],
             },
             {
                 id: '6',
                 title: 'Cupcake',
                 price: 22.9,
-                description:
-                    'Um delicioso Cupcake para adoçar. Escolha o sabor que você gosta...',
+                description: 'Um delicioso Cupcake para adoçar. Escolha o sabor que você gosta...',
                 cover: require('../assets/products/cover/6.png'),
                 thumbnail: require('../assets/products/thumbnail/6.png'),
                 ingredients: ['Escolha o sabor;', 'Chantilly;'],
@@ -123,8 +116,7 @@ const MENU = [
                 price: 6.9,
                 thumbnail: require('../assets/products/thumbnail/7.png'),
                 cover: require('../assets/products/cover/7.png'),
-                description:
-                    'Uma coca super gelada para acompanhar o seu super lanche...',
+                description: 'Uma coca super gelada para acompanhar o seu super lanche...',
                 ingredients: [],
             },
         ],

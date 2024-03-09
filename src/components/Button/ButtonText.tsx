@@ -6,9 +6,5 @@ interface ButtonTextProps {
 }
 
 export function ButtonText({ children }: ButtonTextProps) {
-    return (
-        <Text className="text-black font-heading text-base mx-2">
-            {children}
-        </Text>
-    )
+    return <Text className="text-black font-heading text-base mx-2">{children}</Text>
 }

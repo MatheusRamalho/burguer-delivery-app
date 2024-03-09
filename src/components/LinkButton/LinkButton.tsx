@@ -6,10 +6,7 @@ interface LinkButtonProps extends LinkProps<string> {
 
 export function LinkButton({ title, ...rest }: LinkButtonProps) {
     return (
-        <Link
-            className="text-slate-300 text-center text-base font-body"
-            {...rest}
-        >
+        <Link className="text-slate-300 text-center text-base font-body" {...rest}>
             {title}
         </Link>
     )

@@ -19,27 +19,18 @@ export default function Cart() {
     const [address, setAddress] = useState<string>('')
     const navigation = useNavigation()
 
-    const total = formatCurrency(
-        products.reduce(
-            (total, product) => total + product.price * product.quantity,
-            0,
-        ),
-    )
+    const total = formatCurrency(products.reduce((total, product) => total + product.price * product.quantity, 0))
 
     function handleProductCartRemove(product: ProductCart) {
-        Alert.alert(
-            'Remover',
-            `Deseja remover ${product.title} do carrinhho?`,
-            [
-                {
-                    text: 'Cancelar',
-                },
-                {
-                    text: 'Remover',
-                    onPress: () => remove(product.id),
-                },
-            ],
-        )
+        Alert.alert('Remover', `Deseja remover ${product.title} do carrinhho?`, [
+            {
+                text: 'Cancelar',
+            },
+            {
+                text: 'Remover',
+                onPress: () => remove(product.id),
+            },
+        ])
     }
 
     function handleOrder() {
@@ -47,9 +38,7 @@ export default function Cart() {
             return Alert.alert('Pedido', 'Informe os dados da entrega')
         }
 
-        const orderProducts = products
-            .map((product) => `\n ${product.quantity} ${product.title}`)
-            .join('')
+        const orderProducts = products.map((product) => `\n ${product.quantity} ${product.title}`).join('')
 
         const orderMessage = `🍔 NOVO PEDIDO
             \n ----------------------------
@@ -58,9 +47,7 @@ export default function Cart() {
             \n Valor total: ${total}
         `
 
-        Linking.openURL(
-            `http://api.whatsapp.com/send?phone=${PHONE_NUMBER}&text=${orderMessage}`,
-        )
+        Linking.openURL(`http://api.whatsapp.com/send?phone=${PHONE_NUMBER}&text=${orderMessage}`)
 
         setAddress('')
         clear()
@@ -80,26 +67,18 @@ export default function Cart() {
                                     <Product
                                         key={product.id}
                                         data={product}
-                                        onPress={() =>
-                                            handleProductCartRemove(product)
-                                        }
+                                        onPress={() => handleProductCartRemove(product)}
                                     />
                                 ))}
                             </View>
                         ) : (
-                            <Text className="font-body text-slate-400 text-center my-8">
-                                Seu carrino está vazio.
-                            </Text>
+                            <Text className="font-body text-slate-400 text-center my-8">Seu carrino está vazio.</Text>
                         )}
 
                         <View className="flex-row gap-2 items-center my-5">
-                            <Text className="font-subtitle text-xl text-white">
-                                Total:
-                            </Text>
+                            <Text className="font-subtitle text-xl text-white">Total:</Text>
 
-                            <Text className="font-heading text-2xl text-lime-400">
-                                {total}
-                            </Text>
+                            <Text className="font-heading text-2xl text-lime-400">{total}</Text>
                         </View>
 
                         <Input
